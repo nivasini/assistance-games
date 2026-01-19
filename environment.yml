@@ -1,0 +1,23 @@
+name: assistance-games
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - pip
+  - pip:
+    - numpy>=1.13,<1.22
+    - scipy>=0.19,<1.8
+    - sparse>=0.9.1
+    - gym==0.21.0
+    - lark-parser>=0.8
+    - tensorflow==1.15.0
+    - cvxpy==1.1.18
+    - pyglet==1.5.27
+    - protobuf==3.20.0
+    - importlib-metadata==4.13.0
+    - stable-baselines==2.10.2
+    - opencv-python-headless==4.5.5.64
+    - matplotlib
+    - pandas
+    - joblib
+    - cloudpickle

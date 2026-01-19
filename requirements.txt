@@ -1,0 +1,34 @@
+# Requirements for assistance-games
+# Tested with Python 3.7
+
+# Core dependencies
+numpy>=1.13,<1.22
+scipy>=0.19,<1.8
+sparse>=0.9.1
+gym==0.21.0
+lark-parser>=0.8
+
+# TensorFlow 1.x (required for stable-baselines 2)
+tensorflow==1.15.0
+protobuf==3.20.0
+
+# Stable Baselines 2 for deep RL
+stable-baselines==2.10.2
+
+# Use headless opencv to avoid build issues on macOS
+opencv-python-headless==4.5.5.64
+
+# CVXPY for optimization
+cvxpy==1.1.18
+
+# Rendering
+pyglet==1.5.27
+
+# Fix for gym compatibility
+importlib-metadata==4.13.0
+
+# Additional dependencies
+matplotlib
+pandas
+joblib
+cloudpickle
